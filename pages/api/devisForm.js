@@ -5,12 +5,15 @@ export default async function handler(req, res) {
     const { email, phone, name, message, code, souhaite } = req.body;
 
     const transporter = nodemailer.createTransport({
-      host: "gallo.o2switch.net",
+      host: "mail.france-puits-canadien.fr",
       port: 465,
       secure: true,
       auth: {
         user: "contact@france-puits-canadien.fr",
         pass: "Test008//@@",
+      },
+      tls: {
+        rejectUnauthorized: false, // Ignore certificate errors
       },
     });
 
