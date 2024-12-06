@@ -224,7 +224,7 @@ const Footer = () => {
             </Link>
           </p>
           <p>
-            Created by{" "}
+            Développé{" "}
             <Link href="https://clickandtrust.fr/" className="hover:underline">
               Click & Trust
             </Link>
