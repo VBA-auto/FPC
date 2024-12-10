@@ -23,6 +23,7 @@ const Banner = () => {
                 className="mx-auto videos md:w-[1000px] md:h-[550px] w-auto h-[310px] object-cover rounded-md"
               >
                 <source src="/images/Banvideo.webm" type="video/webm" />
+                {/* <source src="/public/images/Banvideo.webm" type="video/webm" /> */}
               </video>
               <Link
                 href="https://api.whatsapp.com/send?phone=0757831203"
