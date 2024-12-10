@@ -30,7 +30,7 @@ const page = () => {
     speed: 500,
     autoplay: true,
     autoplaySpeed: 2000,
-    dots: true,
+    dots: false,
     arrow: true,
     pauseOnHover: true,
     responsive: [

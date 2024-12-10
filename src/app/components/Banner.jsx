@@ -16,12 +16,13 @@ const Banner = () => {
                 <span className="accent-color">FRANCE PUITS CANADIEN</span>
               </h2>
               <video
+                preload="metadata"
                 autoPlay
                 loop
                 muted
                 className="mx-auto videos md:w-[1000px] md:h-[550px] w-auto h-[310px] object-cover rounded-md"
               >
-                <source src="/images/banVideo.webm" type="video/webm" />
+                <source src="/images/Banvideo.webm" type="video/webm" />
               </video>
               <Link
                 href="https://api.whatsapp.com/send?phone=0757831203"

@@ -171,7 +171,18 @@ h3 {
 .dropdown-menu li {
   padding: 0.5rem 1rem;
 }
-
+.slick-next:before {
+  content: ">" !important;
+  font-family: poppins !important;
+  color: #56c96f !important;
+  font-size: 25px !important;
+}
+.slick-prev:before {
+  content: "<" !important;
+  font-family: poppins !important;
+  color: #56c96f !important;
+  font-size: 25px !important;
+}
 .dropdown-menu li:hover {
   background-color: #f0f0f0;
 }
