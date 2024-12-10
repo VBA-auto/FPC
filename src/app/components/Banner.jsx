@@ -22,7 +22,7 @@ const Banner = () => {
                 muted
                 className="mx-auto videos md:w-[1000px] md:h-[550px] w-auto h-[310px] object-cover rounded-md"
               >
-                <source src="/images/BanVideo.webm" type="video/webm" />
+                <source src="/images/bannervideo.webm" type="video/webm" />
                 {/* <source src="/public/images/Banvideo.webm" type="video/webm" /> */}
               </video>
               <Link
