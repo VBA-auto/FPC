@@ -20,7 +20,7 @@ const Banner = () => {
                 autoPlay
                 loop
                 muted
-                className="mx-auto videos md:w-[1000px] md:h-[550px] w-auto h-[310px] object-cover rounded-md"
+                className="mx-auto videos md:w-[1000px] md:h-[550px] w-auto h-[230px] object-cover rounded-md"
               >
                 <source src="/images/bannervideo.webm" type="video/webm" />
                 {/* <source src="/public/images/Banvideo.webm" type="video/webm" /> */}
