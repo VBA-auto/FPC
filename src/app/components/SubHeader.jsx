@@ -11,10 +11,10 @@ const SubHeader = () => {
             <div className="flex items-center gap-3">
               <FaEnvelope className="accent-color" />
               <Link
-                href="mailto:contact@france-puits-canadien.com"
+                href="mailto:contact@france-puits-canadien.fr"
                 className="text-[#2e2e2e] text-[10px] md:text-[15px]"
               >
-                contact@france-puits-canadien.com
+                contact@france-puits-canadien.fr
               </Link>
             </div>
           </div>

@@ -208,11 +208,11 @@ const Footer = () => {
         <ul className="mt-5 flex justify-center gap-2 items-center">
           {" "}
           {/* Added margin-top for spacing */}
-          <Link href="mailto:contact@france-puits-canadien.com">
+          <Link href="mailto:contact@france-puits-canadien.fr">
             {" "}
             <li className="flex gap-2 items-center">
               <FaPaperPlane className="accent-color" />
-              contact@france-puits-canadien.com
+              contact@france-puits-canadien.fr
             </li>
           </Link>
         </ul>
